@@ -1,0 +1,73 @@
+AGENTS.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Python env
+.venv/
+venv/
+env/
+ENV/
+
+# Build outputs
+build/
+dist/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+compile_commands.json
+Testing/
+*.obj
+*.o
+*.a
+*.lib
+*.exp
+*.pdb
+
+# Logs and temp files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Editor and local tools
+.claude/
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Large model files
+*.gguf
+*.safetensors
+*.ckpt
+*.onnx
+*.pt
+*.pth
+adapter_model.bin
+
+# Local llama.cpp source copies
+task2_llama/llama.cpp/
+task3_acceleration/llama.cpp/
+
+# Local llama.cpp Windows binaries
+task2_llama/llama-b8771-bin-win-cuda-12.4-x64/*.exe
+task2_llama/llama-b8771-bin-win-cuda-12.4-x64/*.dll
+task2_llama/llama-b8771-bin-win-cuda-12.4-x64/models/
+
+# Local acceleration models
+task3_acceleration/models/
+
+# Generated images
+task3_acceleration/scripts/model_comparison.png
