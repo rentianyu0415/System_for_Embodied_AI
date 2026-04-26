@@ -24,10 +24,10 @@ System_for_Embodied_AI/
 │   ├── llama-b8771-bin-win-cuda-12.4-x64/
 │   └── llama.cpp/
 ├── task3_acceleration/
-│   ├── llama.cpp/
-│   ├── models/
-│   └── scripts/
-└── task3_results_visualization.png
+    ├── llama.cpp/
+    ├── models/
+    └── scripts/
+
 ```
 
 ## 每个目录是做什么的
@@ -36,8 +36,7 @@ System_for_Embodied_AI/
 
 - `README.md`
   - 仓库总说明，也就是您现在看到的这个文件。
-- `task3_results_visualization.png`
-  - 任务 3 的总览结果图，用来展示不同模型版本的显存占用和生成速度。
+
 
 ### task1_transformer
 
